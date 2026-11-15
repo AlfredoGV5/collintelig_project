@@ -7,7 +7,7 @@ class Settings(BaseSettings):
     DATABASE_URL: str = "mysql+pymysql://collintelig_app:app_local_123@localhost:3306/collintelig"
     DB_SSL_CA: str = ""
 
-    JWT_SECRET: str = "cambia-esto"
+    JWT_SECRET: str = "bc8e441feaf6c4b23d88f5185bb7ce8b8896217eb091e7bc9f3ba8deeed40307"
     JWT_ALGORITHM: str = "HS256"
     JWT_EXPIRE_MINUTES: int = 60 * 24
 
